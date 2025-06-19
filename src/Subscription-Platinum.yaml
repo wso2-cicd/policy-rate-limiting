@@ -1,0 +1,29 @@
+type: throttling policy
+subtype: subscription policy
+version: v4.5.0
+data:
+  policyId: e21f9d4a-4c04-450a-9ce9-5c582bd2c14d
+  policyName: Platinum
+  displayName: Platinum
+  description: Allows 10000 requests per minute
+  isDeployed: false
+  type: SubscriptionThrottlePolicy
+  graphQLMaxComplexity: 0
+  graphQLMaxDepth: 0
+  defaultLimit:
+    type: REQUESTCOUNTLIMIT
+    requestCount:
+      timeUnit: min
+      unitTime: 1
+      requestCount: 10000
+    bandwidth: null
+    eventCount: null
+    aiApiQuota: null
+  monetization: null
+  rateLimitCount: 0
+  rateLimitTimeUnit: null
+  subscriberCount: 0
+  customAttributes: []
+  stopOnQuotaReach: true
+  billingPlan: FREE
+  permissions: null
