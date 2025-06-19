@@ -1,0 +1,22 @@
+type: throttling policy
+subtype: application policy
+version: v4.5.0
+data:
+  policyId: ca8c9be3-c0ab-4979-9c72-1c77d91caf3c
+  policyName: 100PerMin
+  displayName: 100PerMin
+  description: Allows 100 request per minute
+  isDeployed: false
+  type: ApplicationThrottlePolicy
+  defaultLimit:
+    type: REQUESTCOUNTLIMIT
+    requestCount:
+      timeUnit: min
+      unitTime: 1
+      requestCount: 100
+    bandwidth: null
+    eventCount: null
+    aiApiQuota: null
+  burstLimit:
+    rateLimitCount: 0
+    rateLimitTimeUnit: null
