@@ -12,4 +12,6 @@ jobs:
   release_repo:
     name: Release Repo
     uses: wso2-cicd/wso2-workflows/.github/workflows/release-apim-policy.yml@main
+    with:
+      policyType: rate-limiting
     secrets: inherit

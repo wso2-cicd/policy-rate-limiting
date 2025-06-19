@@ -5,7 +5,7 @@ data:
   policyId: e21f9d4a-4c04-450a-9ce9-5c582bd2c14d
   policyName: Diamond
   displayName: Diamond
-  description: Allows 20000 requests per minute
+  description: Allows 20000 requests per minute.
   isDeployed: false
   type: SubscriptionThrottlePolicy
   graphQLMaxComplexity: 0
