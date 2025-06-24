@@ -5,7 +5,7 @@ data:
   policyId: d9fd5555-8ee8-41d9-a64e-de4526a5e123
   policyName: 100KPerMin
   displayName: 100KPerMin
-  description: Allows 100000 requests per minute
+  description: Allows 100000 requests per minute.
   isDeployed: false
   type: AdvancedThrottlePolicy
   defaultLimit:
