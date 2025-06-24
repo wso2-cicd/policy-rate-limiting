@@ -5,7 +5,7 @@ data:
   policyId: ca8c9be3-c0ab-4979-9c72-1c77d91caf3c
   policyName: 100PerMin
   displayName: 100PerMin
-  description: Allows 100 request per minute.
+  description: Allows 100 request per minute
   isDeployed: false
   type: ApplicationThrottlePolicy
   defaultLimit:
